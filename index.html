@@ -34,7 +34,7 @@
     <nav class="navbar sticky-top">
       <div class="nav-text container-fluid">
         <a class="title ms-4" href="index.html">SummitX</a>
-        <div class="nav-link py-3 text-center d-none d-lg-inline">
+        <div class="nav-link px-5 py-3 text-center d-none d-lg-inline">
           <a class="navbar-brand active" href="index.html">Home</a>
           <a class="navbar-brand" aria-current="page" href="ticket.html"
             >Ticket</a
@@ -52,7 +52,7 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-warning" type="submit">
               <i class="bi bi-search"></i>
             </button>
           </form>
@@ -84,7 +84,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body bg-secondary">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
@@ -100,15 +100,13 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Our Services
+                  Booking
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="package.html">Packages</a>
+                    <a class="dropdown-item" href="ticket.html">Ticket</a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="about-us.html">About Us</a>
-                  </li>
+
                   <li>
                     <a class="dropdown-item" href="contact.html">Contact</a>
                   </li>
@@ -122,7 +120,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-warning" type="submit">
                 <i class="bi bi-search"></i>
               </button>
             </form>
@@ -131,280 +129,86 @@
       </div>
     </nav>
 
+    <!-- header section// -->
+    <section id="about-us" class="p-5">
+      <div class="container d-none d-lg-block">
+        <p>
+          At SummitX Cinema, <br />
+          we believe movies are more than just entertainment— <br />
+          they're experiences that inspire, connect, and create lasting
+          memories.
+          <br /><br />SummitX isn't just a cinema—it's where stories come alive.
+        </p>
+        <a href="" class="btn btn-warning mb-1">Find Your Favourite</a>
+      </div>
+    </section>
+
     <!-- Top Movie section// -->
-    <section id="top">
-      <h1 class="h3 mt-4 ms-5">This Week's Top Movies</h1>
-      <div class="container">
-        <div class="row d-flex flex-column flex-lg-row">
-          <div class="col mt-3 mt-lg-5">
-            <div class="card one">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">4</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
+    <section id="top" class="mt-5">
+      <h3>This Week's Top Movies</h3>
 
-          <div class="col mt-2 mt-lg-4">
-            <div class="card two">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">3</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mt-2">
-            <div class="card three">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">2</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mt-2 mt-lg-0">
-            <div class="card four">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">1</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="#" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-          <!-- review// -->
-          <div class="col ps-5 ms-5 text-lg-start d-none d-lg-inline">
-            <h3 class="review-title text-uppercase mt-4">Reviews</h3>
-            <div class="review">
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-facebook"></i>
-                Facebook
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-instagram"></i>
-                Instagram
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-linkedin"></i>
-                LinkedIn
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-twitter-x"></i>
-                Twitter-X
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-youtube"></i>
-                Youtube
-              </a>
+      <div class="row top-movie d-flex flex-lg-row flex-column">
+        <div class="col-lg-3 mt-5 mt-lg-5">
+          <div class="card one">
+            <img
+              src="image/death.jpg"
+              class="card-img-top"
+              style="height: 320px"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">IV</h5>
+              <ul class="list-unstyled">
+                <li>Death Whispere 3</li>
+                <li>Horror</li>
+                <li>Thailand</li>
+              </ul>
+              <a href="ticket.html" class="btn btn-warning mt-3">Book</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!--RC Top Movie section// -->
-    <section id="top">
-      <h1 class="h3 mt-4 ms-5">Top Movies of Romantic Commedy</h1>
-      <div class="container">
-        <div class="row d-flex flex-column flex-lg-row">
-          <div class="col mt-3 mt-lg-5">
-            <div class="card one">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">4</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
 
-          <div class="col mt-2 mt-lg-4">
-            <div class="card two">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">3</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mt-2">
-            <div class="card three">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">2</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mt-2 mt-lg-0">
-            <div class="card four">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">1</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="#" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-          <!-- review// -->
-          <div class="col ps-5 ms-5 text-lg-start d-none d-lg-inline">
-            <h3 class="review-title text-uppercase mt-4">Reviews</h3>
-            <div class="review">
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-facebook"></i>
-                Facebook
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-instagram"></i>
-                Instagram
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-linkedin"></i>
-                LinkedIn
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-twitter-x"></i>
-                Twitter-X
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-youtube"></i>
-                Youtube
-              </a>
+        <div class="col-lg-3 mt-5 mt-lg-4">
+          <div class="card two">
+            <img src="image/the rae.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">III</h5>
+              <ul class="list-unstyled">
+                <li>Tha Rae:The Exorcist</li>
+                <li>Horror</li>
+                <li>Thailand</li>
+              </ul>
+              <a href="ticket.html" class="btn btn-warning mt-3">Book</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!--Horror Top Movie section// -->
-    <section id="top">
-      <h1 class="h3 mt-4 ms-5">Top Movies of Horror</h1>
-      <div class="container">
-        <div class="row d-flex flex-column flex-lg-row">
-          <div class="col mt-3 mt-lg-5">
-            <div class="card one">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">4</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
 
-          <div class="col mt-2 mt-lg-4">
-            <div class="card two">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">3</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
+        <div class="col-lg-3 mt-5 mt-md-2">
+          <div class="card three">
+            <img src="image/kantara.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">II</h5>
+              <ul class="list-unstyled">
+                <li>KanTaRa</li>
+                <li>Action/Horror</li>
+                <li>Hindi</li>
+              </ul>
+              <a href="ticket.html" class="btn btn-warning mt-3">Book</a>
             </div>
           </div>
+        </div>
 
-          <div class="col mt-2">
-            <div class="card three">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">2</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="ticket.html" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mt-2 mt-lg-0">
-            <div class="card four">
-              <img src="image/hkaka.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="card-title">1</h5>
-                <ul class="list-unstyled">
-                  <li>Name</li>
-                  <li>Rating</li>
-                  <li>Type</li>
-                </ul>
-                <a href="#" class="btn btn-primary mt-3">Book</a>
-              </div>
-            </div>
-          </div>
-          <!-- review// -->
-          <div class="col ps-5 ms-5 text-lg-start d-none d-lg-inline">
-            <h3 class="review-title text-uppercase mt-4">Reviews</h3>
-            <div class="review">
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-facebook"></i>
-                Facebook
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-instagram"></i>
-                Instagram
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-linkedin"></i>
-                LinkedIn
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-twitter-x"></i>
-                Twitter-X
-              </a>
-              <a href="#" class="text-decoration-none d-block">
-                <i class="bi bi-youtube"></i>
-                Youtube
-              </a>
+        <div class="col-lg-3 mt-5 mt-lg-0">
+          <div class="card four">
+            <img src="image/The Shadow's.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">I</h5>
+              <ul class="list-unstyled">
+                <li>The Shadow's Edge</li>
+                <li>Action</li>
+                <li>English</li>
+              </ul>
+              <a href="#" class="btn btn-warning mt-3">Book</a>
             </div>
           </div>
         </div>
@@ -414,17 +218,54 @@
     <!-- footer section// -->
     <footer>
       <div class="row">
-        <div class="col-md-6">
-          <div class="ps-5 text-md-start">
-            <p>&copy; 2025 SummitX.</p>
+        <div class="col-md-4">
+          <div class="text-center text-md-start">
+            <h5>Recommend</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Horror</a></li>
+              <li>
+                <a href="#" class="text-decoration-none">Action</a>
+              </li>
+              <li><a href="#" class="text-decoration-none">Commedy</a></li>
+              <li>
+                <a href="#" class="text-decoration-none">Romatic</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="social-icons text-center text-md-end pe-5">
-            <i class="bi bi-facebook me-2"></i>
-            <i class="bi bi-youtube me-2"></i>
-            <i class="bi bi-linkedin me-2"></i>
-            <i class="bi bi-twitter-x me-2"></i>
+
+        <div class="col-md-4">
+          <div class="text-center">
+            <h5>Events</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none">Introduction</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Fan Sign</a>
+              </li>
+              <li><a href="#" class="text-decoration-none">Live</a></li>
+              <li>
+                <a href="#" class="text-decoration-none">Talk Show</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="text-center text-md-end">
+            <h5>Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Restaurant</a></li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Protect Air-pollution</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Green Environment</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

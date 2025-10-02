@@ -6,77 +6,107 @@
 body {
   font-family: "PT Sans", sans-serif;
   justify-content: space-evenly;
+  background: linear-gradient(to bottom left, white, #ee957b, #fff);
 }
 /* nav bar// */
 
 .navbar {
-  background-color: #c0e7d6;
+  background-color: #ee957b;
 }
-.title,
-#top h1 {
+.title {
   font-size: 1.7rem;
   font-weight: bold;
   color: #813c3c;
   text-decoration: none;
 }
-.navbar-brand {
+
+.active {
+  color: white !important;
+  border-bottom: 2px solid white;
+}
+.nav-link a {
+  padding-left: 50px;
+  padding-right: 50px;
   color: #813c3c;
 
   font-size: 1.2rem;
   padding-left: 20px;
   padding-right: 20px;
 }
-.review-title {
-  color: #813c3c;
-
-  font-size: 1.2rem;
-}
-.active {
-  color: #265c3d !important;
-  border-bottom: 2px solid #813c3c;
-}
-.nav-link a {
-  padding-left: 50px;
-  padding-right: 50px;
-}
 .nav-link a:hover {
-  border-bottom: 2px solid #813c3c;
+  border-bottom: 2px solid white;
 }
+/* header section// */
+#about-us {
+  height: 500px;
+  background-image: url(image/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#about-us h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #813c3c;
+  margin-bottom: 20px;
+}
+#about-us p {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 200px;
+}
+.container {
+  margin-left: 700px;
 
+  width: 400px;
+  height: auto;
+  background-color: #ee957b;
+}
 /* Top Movies Section// */
-
+#top h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #813c3c;
+  margin-bottom: 20px;
+}
 .card {
   width: 100%;
-  border: 2px solid #813c3c;
-  border-radius: 10px;
+  border: 1px solid #813c3c;
+  border-radius: 8px;
   padding: 0;
-  margin-left: -20px;
+  background-color: #ee957b;
 }
 .card-img-top {
   width: 100%;
 }
-/* .two {
-  width: 90%;
-  margin-left: -100px;
-  padding-bottom: 10px;
+.card-body a,
+.card li,
+.card-title {
+  color: #813c3c;
+  font-size: 1.2rem;
 }
-.three {
-  width: 80%;
-  margin-left: -210px;
+.top-movie {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.four {
+/* ticket page// */
+/* seat// */
+/* .container1 {
+  border: 1px solid #813c3c;
   width: 70%;
-  margin-left: -300px;
-}
-.five {
-  width: 60%;
-  margin-left: -120px;
 } */
-
+.carousel img {
+  width: 100%;
+}
 /* footer// */
 footer {
-  background-color: #c0e7d6;
+  background-color: #ee957b;
   margin-top: 50px;
   padding: 30px;
+}
+footer h5,
+footer a {
+  color: #813c3c;
 }
