@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  justify-content: space-evenly;
+}
+/* nav bar// */
+
+.navbar {
+  background-color: #c0e7d6;
+}
+.title,
+#top h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #813c3c;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: #813c3c;
+
+  font-size: 1.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.review-title {
+  color: #813c3c;
+
+  font-size: 1.2rem;
+}
+.active {
+  color: #265c3d !important;
+  border-bottom: 2px solid #813c3c;
+}
+.nav-link a {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nav-link a:hover {
+  border-bottom: 2px solid #813c3c;
+}
+
+/* Top Movies Section// */
+
+.card {
+  width: 100%;
+  border: 2px solid #813c3c;
+  border-radius: 10px;
+  padding: 0;
+  margin-left: -20px;
+}
+.card-img-top {
+  width: 100%;
+}
+/* .two {
+  width: 90%;
+  margin-left: -100px;
+  padding-bottom: 10px;
+}
+.three {
+  width: 80%;
+  margin-left: -210px;
+}
+
+.four {
+  width: 70%;
+  margin-left: -300px;
+}
+.five {
+  width: 60%;
+  margin-left: -120px;
+} */
+
+/* footer// */
+footer {
+  background-color: #c0e7d6;
+  margin-top: 50px;
+  padding: 30px;
+}
