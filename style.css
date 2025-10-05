@@ -6,19 +6,24 @@
 body {
   font-family: "Montserrat";
   justify-content: space-evenly;
-  background: linear-gradient(to bottom left, white, #ee957b, #fff);
+  background: linear-gradient(to bottom left, white, #0d0d0d, #fff);
 }
 /* nav bar// */
 
 .navbar {
-  background-color: #ee957b;
+  background-color: #0d0d0d;
 }
-.title,
-#offcanvasNavbarLabel {
+.title {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #813c3c;
+  color: #f5f5f5;
   text-decoration: none;
+  font-family: Cinzel;
+}
+#offcanvasNavbarLabel {
+  color: #0d0d0d;
+  font-size: 1.7rem;
+  font-weight: bold;
   font-family: Cinzel;
 }
 
@@ -29,59 +34,65 @@ body {
 .nav-link a {
   padding-left: 50px;
   padding-right: 50px;
-  color: #813c3c;
+  color: #f5f5f5;
   font-family: "Cinzel";
-  text-shadow: 0.1px 0.1px 0.1px black;
+
   font-size: 1.2rem;
   padding-left: 20px;
   padding-right: 20px;
 }
 .nav-link a:hover {
+  color: #f5f5f5;
   border-bottom: 2px solid white;
 }
 /* header section// */
 #about-us {
-  height: 500px;
+  height: 400px;
   background-image: url(image/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 30px;
 }
-#about-us h3 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #813c3c;
-  margin-bottom: 20px;
-  font-family: "Cinzel";
-}
+
 #about-us p {
+  padding: 20px;
   line-height: 1.5rem;
   font-size: 1.1rem;
-  color: white;
-  margin-top: 200px;
+  color: #f5f5f5;
 }
 .container {
   margin-left: auto;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   width: 500px;
-  background-color: #ee957b;
-  opacity: 0.8;
+  background-color: rgb(13, 13, 13, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
-
+.favourite {
+  color: #f5f5f5;
+  background-color: #0d0d0d;
+  margin-bottom: 10px;
+  margin-left: 23px;
+  font-family: "Cinzel";
+}
+.favourite:hover {
+  background-color: #f5f5f5 !important;
+  color: #0d0d0d !important;
+}
 /* Top Movies Section// */
 #top h3 {
   text-align: center;
   font-size: 2rem;
-  color: #813c3c;
+  color: #f5f5f5;
   margin-bottom: 20px;
   font-family: "Cinzel";
 }
 .card {
   width: 80%;
-  border: 1px solid #813c3c;
+  border: 1px solid #0d0d0d;
   border-radius: 8px;
   padding: 0;
-  background-color: #ee957b;
+  background-color: #0d0d0d;
 }
 .card-img-top {
   width: 100%;
@@ -90,7 +101,7 @@ body {
 .card-body a,
 .card li,
 .card-title {
-  color: #813c3c;
+  color: #f5f5f5;
   font-family: "Cinzel";
   font-size: 1.2rem;
 
@@ -101,58 +112,67 @@ body {
   margin-right: 150px;
 } */
 .btn {
-  border: 1px solid #813c3c;
+  border: 1px solid #f5f5f5;
   font-family: "Cinzel";
   font-size: 1rem !important;
-  background-color: #ee957b;
+  background-color: #0d0d0d;
 }
 .btn:hover {
-  background-color: #fff;
-  border: 1px solid #813c3c;
+  background-color: #f5f5f5;
+  border: 1px solid #0d0d0d;
 }
 /* ticket page// */
 /* seat// */
-/* .container1 {
-  border: 1px solid #813c3c;
-  width: 70%;
-} */
+
 #seat h3 {
   font-family: "Cinzel";
   font-size: 2rem;
-  color: #813c3c;
+  color: #f5f5f5;
+}
+.recommend,
+.rate {
+  width: 60%;
 }
 .carousel img {
   width: 100%;
 }
 .book label {
   font-size: 1rem;
-  color: #813c3c;
+  color: #f5f5f5;
   font-family: "Cinzel";
   margin-bottom: 10px;
 }
 
 .form-control {
-  width: 80%;
+  width: 90%;
   border: none;
   outline: none;
-  background-color: #ee957b;
-  border-bottom: 1px solid #813c3c;
+  color: #f5f5f5;
+  background-color: rgb(245, 245, 245, 0.3);
+  border-bottom: 1px solid #0d0d0d;
   text-align: left;
   /* margin-left: auto;
   margin-right: auto; */
 }
 .form-label {
   margin-left: auto;
+  color: #f5f5f5;
+}
+.form-btn {
+  color: #f5f5f5;
+}
+.form-btn:hover {
+  color: #0d0d0d;
 }
 /* footer// */
 footer {
-  background-color: #ee957b;
+  background-color: #0d0d0d;
   margin-top: 50px;
   padding: 30px;
 }
 footer h5,
 footer a {
-  color: #813c3c;
+  color: #f5f5f5;
 }
 footer h5 {
   font-family: "Cinzel";
