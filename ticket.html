@@ -281,14 +281,14 @@
               class="carousel slide recommend ms-0 ms-lg-5 mt-5"
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner">
+              <div class="carousel-inner active" data-bs-interval="500">
                 <div class="carousel-item active">
                   <img src="image/second (1).jpg" class="d-block" alt="..." />
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="500">
                   <img src="image/third.jpg" class="d-block" alt="..." />
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="500">
                   <img src="image/first.jpg" class="d-block" alt="..." />
                 </div>
               </div>
@@ -367,45 +367,47 @@
         <!-- booking// -->
         <div class="col-lg-6 ms-2 ms-lg-0 mt-4 text-lg-start">
           <h3 class="mb-3">Booking</h3>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Mr. Mg Mg"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="formFile" class="form-label"
-              >Add Your Payment Receipt.</label
-            >
-            <input class="form-control" type="file" id="formFile" />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Any Suggestion</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-            <input type="submit" class="btn mt-3 form-btn" value="Submit" />
-          </div>
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mr. Mg Mg"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label"
+                >Add Your Payment Receipt.</label
+              >
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Any Suggestion</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+              <input type="submit" class="btn mt-3 form-btn" value="Submit" />
+            </div>
+          </form>
         </div>
       </div>
     </section>
