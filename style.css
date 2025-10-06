@@ -45,10 +45,17 @@ body {
   color: #f5f5f5;
   border-bottom: 2px solid white;
 }
+.bi-search {
+  color: #f5f5f5;
+}
+.bi-search:hover {
+  color: #0d0d0d;
+}
 /* header section// */
 #about-us {
   height: 400px;
-  background-image: url(image/header.jpg);
+  /* background-image: url(image/header.jpg); */
+  background-image: url(image/head.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -61,8 +68,8 @@ body {
   font-size: 1.1rem;
   color: #f5f5f5;
 }
-.container {
-  margin-left: auto;
+.head-title {
+  margin-left: 50%;
   margin-bottom: 80px;
   width: 500px;
   background-color: rgb(13, 13, 13, 0.5);
@@ -79,6 +86,19 @@ body {
   background-color: #f5f5f5 !important;
   color: #0d0d0d !important;
 }
+.medium {
+  width: 90%;
+  background-color: rgb(13, 13, 13, 0.5);
+}
+.medium p {
+  padding: 20px;
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  font-family: "Cinzel";
+}
+
 /* Top Movies Section// */
 #top h3 {
   text-align: center;
@@ -89,7 +109,7 @@ body {
 }
 .card {
   width: 80%;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f5f5f5;
   border-radius: 8px;
   padding: 0;
   background-color: #0d0d0d;
@@ -120,6 +140,20 @@ body {
 .btn:hover {
   background-color: #f5f5f5;
   border: 1px solid #0d0d0d;
+}
+
+/* movies// */
+#movie .card {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: 1px solid #f5f5f5;
+  border-radius: 9px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#movie .card-img-top {
+  width: 100%;
 }
 /* ticket page// */
 /* seat// */
@@ -164,10 +198,98 @@ body {
 .form-btn:hover {
   color: #0d0d0d;
 }
+
+/* contact page// */
+/* head// */
+#contact-head {
+  background-image: url(image/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+#contact-head h3,
+#contact-main h3 {
+  padding: 50px;
+  /* margin-left: 50px; */
+  font-family: "Cinzel";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #f5f5f5;
+}
+.contact-icon i {
+  color: #f5f5f5;
+  margin-left: 40px;
+  margin-top: -50px;
+}
+/* main// */
+#contact-main p {
+  padding: 10px;
+  margin-top: -30px;
+  font-size: 1.3rem;
+  color: #f5f5f5;
+}
+#contact-main ul {
+  margin-top: -30px;
+}
+#contact-main li {
+  line-height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  color: #f5f5f5;
+}
+.second {
+  background-color: #f5f5f5;
+}
+.feedback h5,
+.complain h5 {
+  font-family: "Cinzel";
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0d0d0d;
+  margin-top: 50px;
+  margin-left: 8px;
+}
+.feedback i,
+.feedback p {
+  color: #0d0d0d;
+  font-size: 2rem;
+}
+.complain button {
+  border: 1px solid #f5f5f5;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  border-radius: 5px;
+  padding: 5px;
+}
+#contact-main .form-control {
+  width: 90%;
+}
+.complain button:hover {
+  color: #0d0d0d;
+  background-color: #f5f5f5;
+  border: 1px solid #0d0d0d;
+}
+/* service section// */
+
+.cover {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: rgb(245, 245, 245, 0.2);
+}
+.suggest {
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  font-family: "Cinzel";
+  text-align: center;
+  padding: 20px;
+}
 /* footer// */
 footer {
   background-color: #0d0d0d;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding: 30px;
 }
 footer h5,
