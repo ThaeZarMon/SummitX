@@ -2,3 +2,80 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #0d0d0d;
+  background-repeat: no-repeat;
+  font-family: Cinzel;
+}
+/* login page// */
+.navbar-brand {
+  font-family: Cinzel;
+  font-size: 3rem;
+  margin-left: 50px;
+}
+.button:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+}
+/* nav i {
+  color: #f5f5f5;
+} */
+form {
+  width: 50%;
+  height: 550px;
+  border: 2px solid #0d0d0d;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+.form-label {
+  font-family: "Montserrat";
+}
+.form-control {
+  height: 30px;
+  /* border: none; */
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #0d0d0d;
+  width: 30%;
+}
+.heading {
+  font-size: 3rem;
+  color: #0d0d0d;
+  display: inline-block;
+  /* padding: 10px; */
+  font-family: Cinzel;
+}
+
+/* dashboard page// */
+.title a {
+  text-decoration: none;
+  font-family: Cinzel;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  margin-left: -15px;
+}
+/* links// */
+
+.list-group a {
+  color: #f5f5f5;
+  background-color: #0d0d0d;
+  border: none;
+  border-bottom: 1px solid #5f5b5b;
+}
+/* dashboard// */
+.top-icon i {
+  color: #f5f5f5;
+}
+h3 {
+  font-family: Cinzel;
+  color: #f5f5f5;
+  /* margin-left: 80px; */
+}
+.container {
+  width: 80%;
+  height: 250px;
+}
